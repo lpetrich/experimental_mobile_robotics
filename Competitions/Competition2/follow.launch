@@ -1,0 +1,13 @@
+<launch>
+
+  <!-- wanderbot launch file -->
+
+  <node pkg="joy" type="joy_node" name="joystick"/>
+
+  <node name="followbot" pkg="followbot" type="follower_p.py" output="screen" >
+    <remap from="/cmd_vel" to="/cmd_vel_mux/input/teleop"/>
+  </node>
+
+  <node name="smach_viewer" pkg="smach_viewer" type="smach_viewer.py" />
+
+</launch>

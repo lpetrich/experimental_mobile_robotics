@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>final_project</name>
+  <version>0.1.0</version>
+  <description>The final_project package</description>
+  <maintainer email="llorrain@ualberta.ca">Laura Petrich</maintainer>
+  <license>BSD</license>
+  <url type="website">https://sites.google.com/ualberta.ca/thedaffyduckdivision/home</url>
+  <buildtool_depend>catkin</buildtool_depend>
+  <export>
+  </export>
+</package>

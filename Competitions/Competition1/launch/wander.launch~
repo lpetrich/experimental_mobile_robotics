@@ -1,0 +1,11 @@
+<launch>
+
+  <!-- wanderbot launch file -->
+
+  <node name="wanderbot" pkg="wanderbot" type="wanderSM.py" >
+    <remap from="/cmd_vel" to="/cmd_vel_mux/input/teleop"/>
+  </node>
+
+  <node name="smach_viewer" pkg="smach_viewer" type="smach_viewer.py" />
+
+</launch>

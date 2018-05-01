@@ -1,0 +1,9 @@
+<library path="lib/libgame_layers">
+  <class type="game_navigation_layers::HidingLayer" base_class_type="costmap_2d::Layer">
+    <description>Uses people information to change the costmap</description>
+  </class>
+  <class type="game_navigation_layers::SeekingLayer" base_class_type="costmap_2d::Layer">
+    <description>Uses people information to change the costmap</description>
+  </class>
+</library>
+

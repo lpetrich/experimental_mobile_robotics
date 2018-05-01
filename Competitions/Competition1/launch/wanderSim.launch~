@@ -1,0 +1,12 @@
+<launch>
+
+  <!-- wanderbot launch file -->
+  <group ns="wander"> 
+
+    <node name="wanderbotName" pkg="wanderbot" type="wanderSM.py">
+      <remap from="/cmd_vel" to="/cmd_vel_mux/input/teleop"/>
+    </node>
+
+  </group>
+
+</launch>
